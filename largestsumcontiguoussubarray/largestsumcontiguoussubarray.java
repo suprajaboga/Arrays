@@ -18,7 +18,7 @@ package largestsumcontiguoussubarray;
 //				start = s;
 //				end = i;
 //			}
-//			
+//			//if sum<0, then we don't want to include in subarray, coz the -ve element will decrease the sum in subarray
 //			if(sum < 0)
 //			{
 //				sum = 0;
