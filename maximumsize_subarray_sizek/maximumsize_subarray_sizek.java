@@ -1,5 +1,5 @@
 //Sliding window technique
-package maximumsize_subarray_sizek(sliding window);
+package maximumsize_subarray_sizek;
 
 public class maximumsize_subarray_sizek 
 {
