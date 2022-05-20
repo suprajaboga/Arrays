@@ -43,7 +43,6 @@ public class largestsumcontiguoussubarray {
 			curr_max=Math.max(a[i], curr_max+a[i]);
 			max_so_far=Math.max(curr_max, max_so_far);
 		}
-	    System.out.println("Maximum subarray sum is: "+max_so_far);
-		
+	    System.out.println("Maximum subarray sum is: "+max_so_far);		
 	}
 }
