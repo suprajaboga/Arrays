@@ -5,27 +5,27 @@ package largestsumcontiguoussubarray;
 //	public static void main(String args[])
 //	{
 //		int a[]= {-2,-3,4,-1,-2,1,5,-3};
-//		int min_ending_here=0,max_so_far=0,start=0,end=0,s=0;
+//		int sum=0,max=0,start=0,end=0,s=0;
 //		
 //		for(int i=0;i<a.length;i++)
 //		{
 //			
-//			min_ending_here=min_ending_here+a[i];
+//			sum = sum+a[i];
 //			
-//			if(max_so_far<min_ending_here)
+//			if(max < sum)
 //			{
-//				max_so_far=min_ending_here;
-//				start=s;
-//				end=i;
+//				max = sum;
+//				start = s;
+//				end = i;
 //			}
 //			
-//			if(min_ending_here<0)
+//			if(sum < 0)
 //			{
-//				min_ending_here=0;
-//				s=i+1;
+//				sum = 0;
+//				s = i+1;
 //			}
 //		}
-//	    System.out.println("Maximum subarray sum is: "+max_so_far+" "+"Start index: "+start+" "+"End index: "+end);
+//	    System.out.println("Maximum subarray sum is: " + max + " " + "Start index: " + start + " " + "End index: " + end);
 //		
 //	}
 //}
