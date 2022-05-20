@@ -10,11 +10,11 @@ public class maximumsize_subarray_sizek
 		int n = arr.length;
 		int window_sum = 0, max_sum = 0;
 		for(int i=0;i<k;i++)
-			window_sum = window_sum + arr[i];
+		    window_sum = window_sum + arr[i];
 		for(int i=k;i<n;i++)
 		{
-			window_sum = window_sum + arr[i] - arr[i-k];
-			max_sum = Math.max(max_sum,window_sum);
+		    window_sum = window_sum + arr[i] - arr[i-k];
+		    max_sum = Math.max(max_sum,window_sum);
 		}
 		System.out.println(max_sum);
 	}
